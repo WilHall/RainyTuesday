@@ -1,5 +1,5 @@
 ## RainyTuesday
-A cocoa wrapper for the [RainyDay2 quartz screensaver](http://sribs.blogspot.com/2008/04/rainy-day-2.html) created by @spaceribs.
+A cocoa wrapper for the [RainyDay2 quartz screensaver](http://sribs.blogspot.com/2008/04/rainy-day-2.html) created by [@spaceribs](https://github.com/spaceribs).
 
 ### About
 _**tl;dr;**_ *`.qtz` files don't work as screensavers anymore, this fixes that*  
