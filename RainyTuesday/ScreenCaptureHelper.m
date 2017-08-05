@@ -94,8 +94,16 @@ typedef struct {
         CGDirectDisplayID windowDisplayId;
         CGGetDisplaysWithPoint(windowBounds.origin, maxDisplays, &windowDisplayId, &displayCount);
         
+        // determine if the window is an anchor
+        NSRange loginWindowNameRange = [applicationName rangeOfString:@"loginwindow"];
+        NSRange screenSaverNameRange = [applicationName rangeOfString:@"ScreenSaverEngine"];
+        bool windowIsAnchor = false;
+        if (loginWindowNameRange.location == NSNotFound || screenSaverNameRange.location == NSNotFound) {
+            windowIsAnchor = true;
+        }
+        
         // if the window wasn't on the specified display, skip it
-        if ((int)windowDisplayId != (int)displayId) {
+        if (!windowIsAnchor && (int)windowDisplayId != (int)displayId) {
             continue;
         }
         
@@ -123,7 +131,6 @@ typedef struct {
         NSString *appName = windowInfo[kAppNameKey];
         NSInteger windowLevel = [windowInfo[kWindowLevelKey] integerValue];
         NSInteger windowOrder = [windowInfo[kWindowOrderKey] integerValue];
-        
         NSRange loginWindowNameRange = [appName rangeOfString:@"loginwindow"];
         NSRange screenSaverNameRange = [appName rangeOfString:@"ScreenSaverEngine"];
         
