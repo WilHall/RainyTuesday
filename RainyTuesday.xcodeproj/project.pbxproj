@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C01C9F71F313F7A00806B25 /* RainyTuesdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C01C9F61F313F7A00806B25 /* RainyTuesdayView.h */; };
+		6C01C9F91F313F7A00806B25 /* RainyTuesdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01C9F81F313F7A00806B25 /* RainyTuesdayView.m */; };
+		6C01CA061F314D4E00806B25 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C01CA051F314D4E00806B25 /* CoreImage.framework */; };
+		6C01CA091F31705200806B25 /* ScreenCaptureHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C01CA071F31705200806B25 /* ScreenCaptureHelper.h */; };
+		6C01CA0A1F31705200806B25 /* ScreenCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01CA081F31705200806B25 /* ScreenCaptureHelper.m */; };
+		6C01CA0C1F31709100806B25 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C01CA0B1F31709100806B25 /* AppKit.framework */; };
+		6C01CA0E1F3170A600806B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C01CA0D1F3170A600806B25 /* Foundation.framework */; };
+		6C01CA101F31786C00806B25 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6C01CA0F1F31786C00806B25 /* ConfigureSheet.nib */; };
+		6C01CA1A1F3187AF00806B25 /* RainyDay2.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 6C01CA191F3187AF00806B25 /* RainyDay2.qtz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C01C9F31F313F7A00806B25 /* RainyTuesday.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainyTuesday.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C01C9F61F313F7A00806B25 /* RainyTuesdayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainyTuesdayView.h; sourceTree = "<group>"; };
+		6C01C9F81F313F7A00806B25 /* RainyTuesdayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainyTuesdayView.m; sourceTree = "<group>"; };
+		6C01C9FA1F313F7A00806B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C01CA011F314C9C00806B25 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		6C01CA031F314CF500806B25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C01CA051F314D4E00806B25 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		6C01CA071F31705200806B25 /* ScreenCaptureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCaptureHelper.h; sourceTree = "<group>"; };
+		6C01CA081F31705200806B25 /* ScreenCaptureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCaptureHelper.m; sourceTree = "<group>"; };
+		6C01CA0B1F31709100806B25 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6C01CA0D1F3170A600806B25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C01CA0F1F31786C00806B25 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ConfigureSheet.nib; sourceTree = "<group>"; };
+		6C01CA191F3187AF00806B25 /* RainyDay2.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = RainyDay2.qtz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C01C9EF1F313F7900806B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C01CA0E1F3170A600806B25 /* Foundation.framework in Frameworks */,
+				6C01CA0C1F31709100806B25 /* AppKit.framework in Frameworks */,
+				6C01CA061F314D4E00806B25 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C01C9E91F313F7900806B25 = {
+			isa = PBXGroup;
+			children = (
+				6C01C9F51F313F7A00806B25 /* RainyTuesday */,
+				6C01C9F41F313F7A00806B25 /* Products */,
+				6C01CA001F314C9C00806B25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C01C9F41F313F7A00806B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C01C9F31F313F7A00806B25 /* RainyTuesday.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C01C9F51F313F7A00806B25 /* RainyTuesday */ = {
+			isa = PBXGroup;
+			children = (
+				6C01CA191F3187AF00806B25 /* RainyDay2.qtz */,
+				6C01CA0F1F31786C00806B25 /* ConfigureSheet.nib */,
+				6C01C9F61F313F7A00806B25 /* RainyTuesdayView.h */,
+				6C01C9F81F313F7A00806B25 /* RainyTuesdayView.m */,
+				6C01C9FA1F313F7A00806B25 /* Info.plist */,
+				6C01CA071F31705200806B25 /* ScreenCaptureHelper.h */,
+				6C01CA081F31705200806B25 /* ScreenCaptureHelper.m */,
+			);
+			path = RainyTuesday;
+			sourceTree = "<group>";
+		};
+		6C01CA001F314C9C00806B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C01CA0D1F3170A600806B25 /* Foundation.framework */,
+				6C01CA0B1F31709100806B25 /* AppKit.framework */,
+				6C01CA051F314D4E00806B25 /* CoreImage.framework */,
+				6C01CA031F314CF500806B25 /* QuartzCore.framework */,
+				6C01CA011F314C9C00806B25 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C01C9F01F313F7900806B25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C01C9F71F313F7A00806B25 /* RainyTuesdayView.h in Headers */,
+				6C01CA091F31705200806B25 /* ScreenCaptureHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C01C9F21F313F7900806B25 /* RainyTuesday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C01C9FD1F313F7A00806B25 /* Build configuration list for PBXNativeTarget "RainyTuesday" */;
+			buildPhases = (
+				6C01C9EE1F313F7900806B25 /* Sources */,
+				6C01C9EF1F313F7900806B25 /* Frameworks */,
+				6C01C9F01F313F7900806B25 /* Headers */,
+				6C01C9F11F313F7900806B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainyTuesday;
+			productName = RainyTuesday;
+			productReference = 6C01C9F31F313F7A00806B25 /* RainyTuesday.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C01C9EA1F313F7900806B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Wil Hall";
+				TargetAttributes = {
+					6C01C9F21F313F7900806B25 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4KXVXT23XS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C01C9ED1F313F7900806B25 /* Build configuration list for PBXProject "RainyTuesday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C01C9E91F313F7900806B25;
+			productRefGroup = 6C01C9F41F313F7A00806B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C01C9F21F313F7900806B25 /* RainyTuesday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C01C9F11F313F7900806B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C01CA101F31786C00806B25 /* ConfigureSheet.nib in Resources */,
+				6C01CA1A1F3187AF00806B25 /* RainyDay2.qtz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C01C9EE1F313F7900806B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C01CA0A1F31705200806B25 /* ScreenCaptureHelper.m in Sources */,
+				6C01C9F91F313F7A00806B25 /* RainyTuesdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C01C9FB1F313F7A00806B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C01C9FC1F313F7A00806B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C01C9FE1F313F7A00806B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4KXVXT23XS;
+				INFOPLIST_FILE = RainyTuesday/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilhall.RainyTuesday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		6C01C9FF1F313F7A00806B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4KXVXT23XS;
+				INFOPLIST_FILE = RainyTuesday/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilhall.RainyTuesday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C01C9ED1F313F7900806B25 /* Build configuration list for PBXProject "RainyTuesday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C01C9FB1F313F7A00806B25 /* Debug */,
+				6C01C9FC1F313F7A00806B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C01C9FD1F313F7A00806B25 /* Build configuration list for PBXNativeTarget "RainyTuesday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C01C9FE1F313F7A00806B25 /* Debug */,
+				6C01C9FF1F313F7A00806B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C01C9EA1F313F7900806B25 /* Project object */;
+}
