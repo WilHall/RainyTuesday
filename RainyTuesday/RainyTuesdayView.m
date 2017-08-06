@@ -47,7 +47,7 @@ ScreenSaverDefaults *defaults;
     CGGetDisplaysWithPoint(self.window.screen.visibleFrame.origin, maxDisplays, &viewDisplayId, &displayCount);
     
     CGDirectDisplayID mainDisplayId = CGMainDisplayID();
-    NSImage *screenCapture = [ScreenCaptureHelper screenCaptureOfDisplay:mainDisplayId scaledToSize: rect.size];
+    NSImage *screenCapture = [ScreenCaptureHelper screenCaptureOfDisplay:viewDisplayId scaledToSize: rect.size];
     
     NSBundle *bundle = [NSBundle bundleWithIdentifier:ScreensaverModuleName];
     NSString *qtzPath = [bundle pathForResource:@"RainyDay2" ofType:@"qtz"];
@@ -70,6 +70,8 @@ ScreenSaverDefaults *defaults;
     [qcView startRendering];
     
     [super drawRect:rect];
+    
+    [self setNeedsDisplay: true];
 }
 
 - (NSWindow*)configureSheet
